@@ -9,6 +9,7 @@
 nav{
 	height: 90px;
 	width: 100%;
+	position: relative;
 }
 
 .nav-bar{
@@ -25,6 +26,19 @@ nav img{
 	width: 100px;
 	cursor: pointer;
 	border: none;
+}
+
+.lang {
+	color: black;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+.lang a {
+	text-decoration: none;
+	color: black;
 }
 
 .top-header {
@@ -133,7 +147,7 @@ nav img{
 }
 
 .tester-header {
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: 0 auto 20px;
 }
